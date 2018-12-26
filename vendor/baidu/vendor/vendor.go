@@ -20,7 +20,7 @@ func init() {
 	// Check $KEY and $SID
 	if key == "" || sid == "" {
 		// Assert $KEY and $SID
-		log.Fatalln("Invalid $KEY/$SID")
+		log.Fatalln("Invalid $TTL_KEY_BAIDU/$TTL_SID_BAIDU")
 	}
 	// Register translator
 	Register(

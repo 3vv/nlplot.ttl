@@ -20,7 +20,7 @@ func init() {
 	// Check $KEY and $SID
 	if key == "" || sid == "" {
 		// Log $KEY and $SID
-		log.Println("Nil $KEY/$SID")
+		log.Println("Nil $TTL_KEY_YOUDAO/$TTL_SID_YOUDAO")
 	}
 	// Register translator
 	Register(
