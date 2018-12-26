@@ -2,7 +2,7 @@
 //
 // Microsoft Translator
 
-package microsoft
+package microsoftOld
 
 import (
 	"encoding/json"
